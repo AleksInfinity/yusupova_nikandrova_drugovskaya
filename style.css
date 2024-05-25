@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: 'abracadabra';
+    src: url('./overdozesans.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'abracadabra';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+.main{
+    min-height: 800px;
+    background-image: url('./img/1.png');
+}
+.main__{
+    min-height: 800px;
+    border-image: url(./img/Rectangle\ 514.png);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 99%), url(./img/Rectangle\ 514.png);
+    background-repeat: no-repeat;
+}
+.footer{
+    min-height: 450px;
+    background-image: url(./img/Rectangle\ 622.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 70px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    padding-top: 40px;
+}
+.about{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 65px;
+    margin-top: 100px;
+}
+.nav{
+    max-width: 1300px;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 400px;
+}
+.poisk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.new-cards{
+    display: flex;
+    justify-content: center;
+
+}
+.new-card{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.new-cards-right{
+    align-self: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+
+.socials-row{
+    display: flex;
+}
+.katalog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+.katalog-card{
+    margin-top: 50px;
+}
+.katalog-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.podval{
+    margin-left: 20px;
+}
+.we{
+    text-align: center;
+}
+
+.cards{
+    margin-top: 150px;
+}
+
+.card {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.card-right {
+padding-top: 30px;
+margin-left: 50px
+}
+
+.star{
+    margin-top: 4px;
+}
+
+.money-text {
+    margin-bottom: 3px;
+    font-size: 35px;
+}
+
+.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.scale img {
+    transition: 0.5s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+}
+.scale img:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-button-next {
+    align-items: right;
+}
+
+.zakazat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    max-width: 1300px; 
+    margin-top: 100px;
+}

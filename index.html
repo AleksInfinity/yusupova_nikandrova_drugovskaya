@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>main page</title>
+    <style>
+        a {text-decoration: none;}
+        a {color: #000;}
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="promo">
+                <div class="header">
+                    <a href="./index.html" class="logo">
+                        <img src="img/Infinity.png" alt="">
+                    </a>
+                    <div class="menu">
+                        <a href="catalog.html" class="menu-link">Каталог</a> 
+                    </div>
+                    <div class="menu_">
+                        <a href="" class="menu-link">Поиск</a>
+                    </div>
+                    <div class="menu__">
+                        <a href="" class="menu-link">Избранное</a>
+                    </div>
+                    <a href="korzina.html"class="menu-link">
+                        <img src="img/basket.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <p>
+                Привет! Меня зовут _______и я с детства ношу потрясающей красоты вязаные изделия – работы мой мамы _____. Я очень люблю и ценю ручной труд и натуральные материалы. Когда-то я подумала, что очень здорово делиться этой любовью и своим видением прекрасного – так возник Infinity. Сейчас в проекте трудятся семь великолепных мастериц. И моя мама, конечно, тоже.
+                МЕДЛЕННАЯ МОДА
+                Мы уделяем особенное внимание составу и качеству пряжи и разделяем принципы медленной моды: поддерживать локальных мастеров, с уважением относиться к природе, создавать изделия, которые можно долго и с удовольствием носить.Мы несём ответственность за все изделия, которые создаём, поэтому если вы когда-то купили у нас вязаное (кроме носков, гольф и домашних штук) и по каким-то причинам не носите это, вы можете вернуть нам изделие, в обмен на скидку 15% на новую покупку. А мы, в свою очередь, передадим отданное в благотворительную организацию или распустим и свяжем что-то новое.
+            </p>
+        </div>
+        
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/Rectangle 489.png" alt="" class="new-card">
+                    <img src="img/Rectangle 489 (1).png" alt="" class="new-card">
+                    <img src="img/Rectangle 489 (2).png" alt="" class="new-card"> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/Rectangle 489 (3).png" alt="" class="new-card">
+                    <img src="img/Rectangle 489 (4).png" alt="" class="new-card">
+                    <img src="img/Rectangle 489 (5).png" alt="" class="new-card">
+                </div>
+
+            
+            </div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next"></div>
+
+        </div>
+    
+        <div class="footer">
+            <div class="podval">
+                <p>
+                 Доставка и оплата <br>
+                 <br>
+                Условия возврата <br>
+                <br>
+                Руководство по покупке <br>
+                <br>
+                Система лояльности <br>
+                <br>
+                Подарочные сертификаты <br>
+                </p>
+            </div>
+            <div class="podval">
+                <p>
+                Магазины <br>
+                <br>
+                О нас <br>
+                <br>
+                Контакты <br>
+                <br>
+                Работа у нас <br>
+                <br>
+                Партнерство <br>
+                </p>
+            </div>
+    
+            <div class="socials">
+                
+                <div class="we">
+                    <p>
+                        Мы в социальных сетях 
+                    </p>
+                </div>
+        
+                <div class="socials-row">
+                    <img src="img/Rectangle 631.png" alt="" class="new-card">
+                    <img src="img/Rectangle 632.png" alt="" class="new-card">
+                    <img src="img/Rectangle 633.png" alt="" class="new-card">
+                </div>
+        
+                <div class="socials-row">
+                    <img src="img/Rectangle 634.png" alt="" class="new-card">
+                    <img src="img/Rectangle 635.png" alt="" class="new-card">
+                    <img src="img/Rectangle 636.png" alt="" class="new-card">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
+    </script>
+    
+    
+</body>
+</html>
